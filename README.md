@@ -1,239 +1,181 @@
-# osTicket Help Desk Ticketing System
-
-Repository: `osTicket-Helpdesk-Ticketing-System`
+# 🎫 osTicket Help Desk Ticketing System
 
 ## 📌 Overview
-This project demonstrates the installation, configuration, and use of the osTicket help desk ticketing system in a simulated IT support environment. The lab focuses on ticket management workflows, SLA handling, user support scenarios, and troubleshooting processes commonly used in real-world help desk operations.
+This project simulates a real-world help desk ticketing environment using osTicket. The lab focuses on ticket management, SLA configuration, escalation workflows, password reset scenarios, and troubleshooting support tickets commonly handled by IT support specialists and help desk technicians.
 
-The goal of this project is to build hands-on experience with ticket lifecycle management, customer support workflows, escalation procedures, and IT service management concepts.
-
----
+The goal of this project is to build hands-on experience with ticketing systems, customer support workflows, troubleshooting methodology, and enterprise help desk operations.
 
 ## 🎯 Objectives
 - Install and configure osTicket
-- Simulate real-world help desk ticket workflows
-- Practice SLA and escalation management
-- Troubleshoot common user support issues
-- Manage support tickets from creation to resolution
-- Improve IT documentation and customer support skills
-
----
+- Manage help desk ticket workflows
+- Configure SLA and escalation policies
+- Simulate password reset scenarios
+- Troubleshoot support tickets
+- Practice real-world help desk operations
 
 ## 🧰 Technologies Used
 - osTicket
+- Windows Server 2022
 - Windows 10/11
-- IIS/Web Server
+- IIS
+- MySQL
 - PHP
-- MySQL/MariaDB
-- Help Desk Ticketing System
-- Remote Desktop
-- Browser-Based Administration
-
----
 
 ## 🏗️ Environment Setup
-
-### Devices Used
-- Windows Server/Client Environment
+- Windows Server VM
+- Windows Client VM
 - osTicket Server
-- Administrator Workstation
-
-### Network Configuration
-- Local Network Connectivity
-- Web Server Access
-- Database Connectivity
-- Browser Access to Help Desk Portal
-
----
+- Help Desk Environment
+- Web Browser Access
 
 ## ⚙️ Project Configuration Steps
-
 ### Step 1 - Install osTicket
-- Downloaded osTicket installation files
-- Configured web server requirements
-- Verified PHP extensions and dependencies
+Installed and configured the osTicket help desk system.
 
-Screenshot here
+📸 Screenshot here
 
----
+### Step 2 - Configure Ticketing System
+Configured departments, agents, and ticket settings.
 
-### Step 2 - Configure Database
-- Created MySQL/MariaDB database
-- Configured database user permissions
-- Connected osTicket to database
+📸 Screenshot here
 
-Screenshot here
+### Step 3 - Configure SLA & Escalation Policies
+Configured SLA plans and escalation workflows for ticket management.
 
----
+📸 Screenshot here
 
-### Step 3 - Complete osTicket Setup
-- Configured help desk system settings
-- Created admin account
-- Verified successful installation
+### Step 4 - Test Help Desk Ticket Workflow
+Created and managed support tickets through the help desk system.
 
-Screenshot here
-
----
-
-### Step 4 - Configure Roles and Departments
-- Created support departments
-- Configured agent permissions
-- Assigned ticket access controls
-
-Screenshot here
-
----
+📸 Screenshot here
 
 ## 🛠️ Help Desk Scenarios
 
-### Scenario 1 - Ticket Lifecycle Management
+### Scenario 1 - Ticket Lifecycle Scenario
 
 #### Problem
-A user submits a help desk request for technical support.
+User submitted a support request that required ticket creation, assignment, and resolution.
 
 #### Troubleshooting
 - Created support ticket
-- Assigned ticket priority
-- Routed ticket to correct department
-- Updated ticket status throughout resolution process
+- Assigned ticket to help desk agent
+- Updated ticket status
+- Verified successful resolution
 
 #### Root Cause
-User required technical assistance through standard help desk workflow.
+User required technical assistance through the help desk workflow.
 
 #### Resolution
-Resolved user issue and closed ticket after verification.
+Resolved the issue and completed the ticket lifecycle process successfully.
 
 #### Skills Learned
-- Ticket lifecycle management
-- Help desk workflow operations
-- Customer support communication
-- IT documentation
+- Ticket management
+- Help desk workflows
+- Ticket lifecycle administration
+- Customer support operations
 
-Screenshot here
+📸 Screenshot here
 
 ---
 
 ### Scenario 2 - SLA & Escalation Workflow
 
 #### Problem
-A high-priority issue required escalation to higher-level support.
+Support ticket exceeded response time requirements and required escalation.
 
 #### Troubleshooting
-- Reviewed SLA requirements
-- Monitored response time deadlines
-- Escalated ticket to appropriate support tier
-- Updated ticket notes and status
+- Reviewed SLA configuration
+- Verified escalation rules
+- Monitored ticket response times
+- Updated ticket priority
 
 #### Root Cause
-Issue exceeded standard support scope and required escalation procedures.
+Ticket response time exceeded configured SLA thresholds.
 
 #### Resolution
-Escalated ticket properly and ensured SLA compliance.
+Configured SLA and escalation workflows to improve ticket response management.
 
 #### Skills Learned
 - SLA management
-- Escalation procedures
-- Priority handling
-- Incident management
+- Ticket escalation workflows
+- Priority management
+- Help desk operations
 
-Screenshot here
+📸 Screenshot here
 
 ---
 
 ### Scenario 3 - Password Reset Ticket Scenario
 
 #### Problem
-User unable to access account due to forgotten password.
+User was unable to log in due to forgotten credentials.
 
 #### Troubleshooting
-- Verified user identity
-- Reviewed account status
-- Processed password reset request
-- Confirmed successful login
+- Verified user account information
+- Reset user password
+- Tested login functionality
+- Updated support ticket notes
 
 #### Root Cause
-Forgotten password/account access issue.
+User password issue prevented successful authentication.
 
 #### Resolution
-Reset password and restored user access.
+Reset user credentials and restored account access successfully.
 
 #### Skills Learned
-- User account support
-- Password reset procedures
-- Help desk authentication workflows
-- Customer service skills
+- Password reset support
+- User account troubleshooting
+- Authentication support
+- End-user assistance
 
-Screenshot here
+📸 Screenshot here
 
 ---
 
 ### Scenario 4 - Printer Troubleshooting Ticket Scenario
 
 #### Problem
-User unable to print documents to network printer.
+User reported inability to print documents from their workstation.
 
 #### Troubleshooting
-- Verified printer connectivity
-- Checked printer queue and status
-- Confirmed driver configuration
-- Tested printer communication
+- Reviewed printer connectivity
+- Verified printer status
+- Restarted print spooler service
+- Tested printer functionality
 
 #### Root Cause
-Printer configuration/connectivity issue.
+Printer communication/spooler issue prevented successful printing.
 
 #### Resolution
-Corrected printer issue and restored printing functionality.
+Resolved printer issue and restored printing functionality.
 
 #### Skills Learned
 - Printer troubleshooting
-- Network device support
-- Help desk diagnostics
-- End-user support
+- Print spooler management
+- Ticket documentation
+- Technical support workflows
 
-Screenshot here
+📸 Screenshot here
 
 ---
 
 ## 🧠 Key Help Desk Skills Demonstrated
-- Ticket management
-- Incident handling
-- SLA management
-- Escalation workflows
-- Customer service
-- Technical troubleshooting
-- IT documentation
-- User account support
-- Printer troubleshooting
-
----
+- Ticket Management
+- SLA Administration
+- Troubleshooting Methodology
+- End-User Support
+- Password Reset Support
+- Printer Troubleshooting
+- Root Cause Analysis
+- Technical Documentation
 
 ## 📖 Lessons Learned
-This project improved my understanding of real-world help desk operations and ticket management systems. I learned how support teams manage incidents, prioritize tickets, maintain SLA compliance, and communicate effectively with users throughout the troubleshooting process. The lab also strengthened my documentation and customer support skills in a simulated enterprise environment.
+This project improved my understanding of help desk ticketing systems and enterprise support workflows. I gained hands-on experience managing support tickets, configuring SLA policies, troubleshooting user issues, and documenting technical resolutions using osTicket.
 
----
+The lab also strengthened my customer support, troubleshooting, and ticket management skills commonly used in IT help desk environments.
 
 ## 🚀 Future Improvements
-- Add Active Directory integration
-- Configure email ticketing automation
+- Configure email ticket integration
+- Add automated ticket workflows
 - Implement knowledge base articles
-- Add multi-department support workflows
-- Integrate remote support tools
-- Simulate advanced enterprise ticket escalation scenarios
-
----
-
-## 📸 Screenshots
-Include:
-- osTicket dashboard
-- Ticket creation workflow
-- SLA configuration
-- Agent panel
-- Department configuration
-- Ticket escalation screenshots
-- Password reset tickets
-- Printer troubleshooting tickets
-
----
-
-## 👨‍💻 Author
-Keanu
+- Configure advanced SLA policies
