@@ -65,6 +65,8 @@ User submitted a support request that required ticket creation, assignment, and 
 #### Root Cause
 User required technical assistance through the help desk workflow.
 
+📸 Screenshot here
+
 #### Resolution
 Resolved the issue and completed the ticket lifecycle process successfully.
 
@@ -73,9 +75,6 @@ Resolved the issue and completed the ticket lifecycle process successfully.
 - Help desk workflows
 - Ticket lifecycle administration
 - Customer support operations
-
-📸 Screenshot here
-
 ---
 
 ### Scenario 2 - SLA & Escalation Workflow
@@ -92,6 +91,8 @@ Support ticket exceeded response time requirements and required escalation.
 #### Root Cause
 Ticket response time exceeded configured SLA thresholds.
 
+📸 Screenshot here
+
 #### Resolution
 Configured SLA and escalation workflows to improve ticket response management.
 
@@ -100,9 +101,6 @@ Configured SLA and escalation workflows to improve ticket response management.
 - Ticket escalation workflows
 - Priority management
 - Help desk operations
-
-📸 Screenshot here
-
 ---
 
 ### Scenario 3 - Password Reset Ticket Scenario
@@ -119,6 +117,8 @@ User was unable to log in due to forgotten credentials.
 #### Root Cause
 User password issue prevented successful authentication.
 
+📸 Screenshot here
+
 #### Resolution
 Reset user credentials and restored account access successfully.
 
@@ -127,9 +127,6 @@ Reset user credentials and restored account access successfully.
 - User account troubleshooting
 - Authentication support
 - End-user assistance
-
-📸 Screenshot here
-
 ---
 
 ### Scenario 4 - Printer Troubleshooting Ticket Scenario
@@ -146,6 +143,8 @@ User reported inability to print documents from their workstation.
 #### Root Cause
 Printer communication/spooler issue prevented successful printing.
 
+📸 Screenshot here
+
 #### Resolution
 Resolved printer issue and restored printing functionality.
 
@@ -154,9 +153,6 @@ Resolved printer issue and restored printing functionality.
 - Print spooler management
 - Ticket documentation
 - Technical support workflows
-
-📸 Screenshot here
-
 ---
 
 ## 🧠 Key Help Desk Skills Demonstrated
