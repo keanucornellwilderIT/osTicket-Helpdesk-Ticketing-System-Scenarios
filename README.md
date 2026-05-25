@@ -32,22 +32,14 @@ The goal of this project is to build hands-on experience with ticketing systems,
 ### Step 1 - Install osTicket
 Installed and configured the osTicket help desk system.
 
-📸 Screenshot here
-
 ### Step 2 - Configure Ticketing System
 Configured departments, agents, and ticket settings.
-
-📸 Screenshot here
 
 ### Step 3 - Configure SLA & Escalation Policies
 Configured SLA plans and escalation workflows for ticket management.
 
-📸 Screenshot here
-
 ### Step 4 - Test Help Desk Ticket Workflow
 Created and managed support tickets through the help desk system.
-
-📸 Screenshot here
 
 ## 🛠️ Help Desk Scenarios
 
