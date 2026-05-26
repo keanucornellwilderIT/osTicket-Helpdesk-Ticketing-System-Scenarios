@@ -48,8 +48,8 @@ This project demonstrates how enterprise IT teams use help desk ticketing system
 ### Agents
 | Agent | Department | Access |
 |---|---|---|
-| Keanu Wilder | SysAdmins | Supreme Admin |
-| John Doe | Support | View Only |
+| John Doe | SysAdmins | Full Access |
+| Keanu Wilder | Helpdesk | Limited Access |
 | Olivia Martinez | Network Operations | Limited Access |
 
 ### Users
@@ -88,7 +88,7 @@ Configured SLA response policies and realistic help topics for ticket categoriza
 
 ## Scenario 1 - HR Payroll Account Lockout
 ### Assigned Agent
-Keanu Wilder — SysAdmin Department
+Keanu Wilder — Helpdesk Department
 ### User
 Sarah Johnson — HR Department
 ### Help Topic
@@ -115,20 +115,19 @@ Multiple failed login attempts caused the user account to become locked.
 <img width="730" height="829" alt="image" src="https://github.com/user-attachments/assets/ec603b02-3336-45ac-9354-494d843dc462" />
 
 ### Ticket Queue
-<img width="958" height="377" alt="image" src="https://github.com/user-attachments/assets/89fb7a6b-b931-428f-9a4c-76d0ef784b36" />
+<img width="959" height="400" alt="image" src="https://github.com/user-attachments/assets/6a43c239-2422-4bd9-9aaa-8bf2fdd1933a" />
 
 ### Ticket Assignment
-<img width="826" height="562" alt="image" src="https://github.com/user-attachments/assets/c6053d75-02ca-4c27-b32b-93d7692b374d" />
+<img width="957" height="501" alt="image" src="https://github.com/user-attachments/assets/6a87befe-e8ea-4524-ae97-1799e7a77a98" />
 
 ### Account Lockout in AD
 <img width="407" height="536" alt="image" src="https://github.com/user-attachments/assets/89053c6e-03cb-4818-95c3-911b66c3bf40" />
 
 ### Internal Troubleshooting Documentation
-<img width="837" height="830" alt="image" src="https://github.com/user-attachments/assets/061f1cd4-87d3-41e5-b1a3-5a994e3b79eb" />
+<img width="861" height="917" alt="image" src="https://github.com/user-attachments/assets/26f0fb17-45c5-42d4-8013-dad2980bb43a" />
 
 ### Resolved Ticket
-<img width="981" height="179" alt="image" src="https://github.com/user-attachments/assets/5f2cad05-db17-4bb1-983c-e2d720827694" />
-
+<img width="853" height="146" alt="image" src="https://github.com/user-attachments/assets/87cc96e9-8d88-4271-b019-3ff31487dc8d" />
 
 ### Resolution
 Password was reset and account access was restored successfully.
@@ -136,9 +135,9 @@ Password was reset and account access was restored successfully.
 ---
 ## Scenario 2 - Sales Printer Failure Before Client Meeting
 ### Assigned Agent
-John Doe — Support Department
+Keanu Wilder — Helpdesk Department
 ### Escalated To
-Keanu Wilder SysAdmin Department
+John Doe SysAdmin Department
 ### User
 Ethan Davis — Sales Department
 ### Help Topic
@@ -161,7 +160,7 @@ A stalled Print Spooler service prevented documents from printing successfully.
 
 ## Screenshots
 1. Ticket submission showing printer issue and business impact
-2. Ticket escalation from John Doe to Keanu Wilder
+2. Ticket escalation from Keanu Wilder to John Doe
 3. Print Spooler troubleshooting and stuck print queue investigation
 4. Internal troubleshooting notes documenting escalation and remediation steps
 5. Successful test print or restored printer functionality
@@ -206,7 +205,9 @@ Network Operations restored connectivity and shared drive access successfully.
 ---
 ## Scenario 4 - Business Critical SLA Escalation
 ### Assigned Agent
-Keanu Wilder SysAdmin Department
+Keanu Wilder — Helpdesk Department
+### Escalated To
+John Doe SysAdmin Department
 ### User
 Karen — General User
 ### Help Topic
@@ -229,7 +230,7 @@ Critical outage required escalation beyond frontline support capabilities.
 
 ## Screenshots
 1. Critical VPN outage ticket showing SLA priority and business impact
-2. Ticket escalation from John Doe to Keanu Wilder in the SysAdmins department
+2. Ticket escalation from Keanu Wilder to John Doe in the SysAdmins department
 3. VPN troubleshooting showing failed VPN connection or service investigation
 4. Internal troubleshooting notes documenting SLA escalation and remediation steps
 5. Successful VPN reconnection or restored VPN service verification
