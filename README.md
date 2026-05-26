@@ -49,7 +49,7 @@ This project demonstrates how enterprise IT teams use help desk ticketing system
 | Agent | Department | Access |
 |---|---|---|
 | John Doe | SysAdmins | Full Access |
-| Keanu Wilder | Helpdesk | Limited Access |
+| Keanu Wilder | Helpdesk | Helpdesk Access |
 | Olivia Martinez | Network Operations | Limited Access |
 
 ### Users
@@ -95,6 +95,8 @@ Sarah Johnson — HR Department
 Report a Problem / Password Reset
 ### Priority
 High
+### SLA
+Sev-A — 1 Hour Response / 24x7 Coverage
 
 ### Problem
 Sarah Johnson was unable to access her workstation and payroll system before payroll processing deadlines.
@@ -111,25 +113,25 @@ Sarah Johnson was unable to access her workstation and payroll system before pay
 Multiple failed login attempts caused the user account to become locked.
 
 ## Screenshots
-### Ticket Submission
+## Ticket Submission
 <img width="730" height="829" alt="image" src="https://github.com/user-attachments/assets/ec603b02-3336-45ac-9354-494d843dc462" />
 
-### Ticket Queue
+## Ticket Queue
 <img width="959" height="400" alt="image" src="https://github.com/user-attachments/assets/6a43c239-2422-4bd9-9aaa-8bf2fdd1933a" />
 
-### Ticket Assignment
+## Ticket Assignment
 <img width="957" height="501" alt="image" src="https://github.com/user-attachments/assets/6a87befe-e8ea-4524-ae97-1799e7a77a98" />
 
-### Account Lockout in AD
+## Account Lockout in AD
 <img width="407" height="536" alt="image" src="https://github.com/user-attachments/assets/89053c6e-03cb-4818-95c3-911b66c3bf40" />
 
-### Internal Troubleshooting Documentation
+## Internal Troubleshooting Documentation
 <img width="861" height="917" alt="image" src="https://github.com/user-attachments/assets/26f0fb17-45c5-42d4-8013-dad2980bb43a" />
 
-### Resolved Ticket
+## Resolved Ticket
 <img width="853" height="146" alt="image" src="https://github.com/user-attachments/assets/87cc96e9-8d88-4271-b019-3ff31487dc8d" />
 
-### Resolution
+## Resolution
 Password was reset and account access was restored successfully.
 
 ---
@@ -144,6 +146,8 @@ Ethan Davis — Sales Department
 Report a Problem / Printer Issues
 ### Priority
 Medium
+### SLA
+Sev-B — 4 Hour Response / 24x7 Coverage
 
 ### Problem
 Sales staff were unable to print contracts before an important client meeting.
@@ -159,11 +163,20 @@ Sales staff were unable to print contracts before an important client meeting.
 A stalled Print Spooler service prevented documents from printing successfully.
 
 ## Screenshots
-1. Ticket submission showing printer issue and business impact
-2. Ticket escalation from Keanu Wilder to John Doe
-3. Print Spooler troubleshooting and stuck print queue investigation
-4. Internal troubleshooting notes documenting escalation and remediation steps
-5. Successful test print or restored printer functionality
+## Ticket submission showing printer issue and business impact
+<img width="841" height="899" alt="image" src="https://github.com/user-attachments/assets/c6e6e6a7-f5db-4430-a95d-5aab92ef81b0" />
+
+## Ticket escalation from Keanu Wilder to John Doe
+<img width="870" height="957" alt="image" src="https://github.com/user-attachments/assets/492c252c-792f-4def-b9c9-5a8037bdc0d9" />
+
+## Screenshot showing Print Spooler service troubleshooting after users reported documents stuck in the print queue. The Print Spooler service was found stopped, preventing successful printer communication and document processing.
+<img width="406" height="465" alt="image" src="https://github.com/user-attachments/assets/9599351b-8346-444f-a39c-8eab21bf1ab0" />
+
+## Internal troubleshooting notes documenting escalation and remediation steps
+<img width="857" height="399" alt="image" src="https://github.com/user-attachments/assets/d652c7f1-bd91-4a32-a305-2007b444c361" />
+
+## Resolved Ticket
+<img width="909" height="152" alt="image" src="https://github.com/user-attachments/assets/03b3cdeb-3bfe-4145-9ae2-1c384de9ec75" />
 
 ### Resolution
 Printer functionality was restored successfully.
