@@ -110,17 +110,22 @@ Sarah Johnson was unable to access her workstation and payroll system before pay
 ### Root Cause
 Multiple failed login attempts caused the user account to become locked.
 
-### Screenshots
+## Screenshots
 ### Ticket Submission
 <img width="730" height="829" alt="image" src="https://github.com/user-attachments/assets/ec603b02-3336-45ac-9354-494d843dc462" />
+
 ### Ticket Queue
 <img width="958" height="377" alt="image" src="https://github.com/user-attachments/assets/89fb7a6b-b931-428f-9a4c-76d0ef784b36" />
-### Account Lockout in AD
 
 ### Ticket Assignment
 <img width="826" height="562" alt="image" src="https://github.com/user-attachments/assets/c6053d75-02ca-4c27-b32b-93d7692b374d" />
+
+### Account Lockout in AD
+<img width="407" height="536" alt="image" src="https://github.com/user-attachments/assets/89053c6e-03cb-4818-95c3-911b66c3bf40" />
+
 ### Internal Troubleshooting Documentation
 <img width="837" height="830" alt="image" src="https://github.com/user-attachments/assets/061f1cd4-87d3-41e5-b1a3-5a994e3b79eb" />
+
 ### Resolved Ticket
 <img width="981" height="179" alt="image" src="https://github.com/user-attachments/assets/5f2cad05-db17-4bb1-983c-e2d720827694" />
 
@@ -154,7 +159,7 @@ Sales staff were unable to print contracts before an important client meeting.
 ### Root Cause
 A stalled Print Spooler service prevented documents from printing successfully.
 
-### Screenshots
+## Screenshots
 1. Ticket submission showing printer issue and business impact
 2. Ticket escalation from John Doe to Keanu Wilder
 3. Print Spooler troubleshooting and stuck print queue investigation
@@ -188,7 +193,7 @@ Finance employees lost access to a shared network drive containing department fi
 ### Root Cause
 Network connectivity disruption prevented users from accessing the finance shared drive.
 
-### Screenshots
+## Screenshots
 1. Critical shared drive outage ticket showing business impact
 2. Ticket escalation to Olivia Martinez in Network Operations
 3. Network troubleshooting showing failed shared drive access or connectivity testing
@@ -222,7 +227,7 @@ A business-critical outage exceeded SLA response windows and required escalation
 ### Root Cause
 Critical outage required escalation beyond frontline support capabilities.
 
-### Screenshots
+## Screenshots
 1. Critical VPN outage ticket showing SLA priority and business impact
 2. Ticket escalation from John Doe to Keanu Wilder in the SysAdmins department
 3. VPN troubleshooting showing failed VPN connection or service investigation
