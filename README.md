@@ -217,25 +217,25 @@ Finance employees lost access to a shared network drive containing department fi
 Network connectivity disruption prevented users from accessing the finance shared drive.
 
 ## Screenshots
-Critical shared drive outage ticket showing business impact
+## Critical shared drive outage ticket showing business impact
 
 <img width="758" height="713" alt="image" src="https://github.com/user-attachments/assets/694c5f87-4c6f-4886-9c22-81d2a0b2b12d" />
 
-Ticket Assign to Olivia Martinez in Network Operations
+## Ticket Assign to Olivia Martinez in Network Operations
 
 <img width="859" height="686" alt="image" src="https://github.com/user-attachments/assets/5d405d65-18b1-434f-91dc-37882cd70824" />
 
-Network troubleshooting showing failed shared drive access or connectivity testing
+## Network troubleshooting showing failed shared drive access or connectivity testing
 
 <img width="353" height="363" alt="image" src="https://github.com/user-attachments/assets/aee15d6a-edf0-4007-b1cd-63c5e0832196" />
 <img width="1119" height="764" alt="image" src="https://github.com/user-attachments/assets/16f0e009-7f64-440d-9b3d-248528594ecb" />
 
-Internal troubleshooting notes documenting escalation and network investigation
+## Internal troubleshooting notes documenting escalation and network investigation
 
 <img width="361" height="447" alt="image" src="https://github.com/user-attachments/assets/2cf170f9-a71a-40ed-bb71-3e1ee77244a7" />
 <img width="852" height="466" alt="image" src="https://github.com/ser-attachments/assets/609de83b-7906-415b-bd43-52dd562acdad" />
 
-Restored shared drive access or successful connectivity verification
+## Restored shared drive access or successful connectivity verification
 
 <img width="1125" height="766" alt="image" src="https://github.com/user-attachments/assets/42d4f300-ccbd-4c76-b0ef-c93ee929e985" />
 
@@ -269,23 +269,23 @@ A business-critical outage exceeded SLA response windows and required escalation
 Critical outage required escalation beyond frontline support capabilities.
 
 ## Screenshots
-Critical VPN outage ticket showing SLA priority and business impact
+## Critical VPN outage ticket showing SLA priority and business impact
 
 <img width="860" height="806" alt="image" src="https://github.com/user-attachments/assets/8ee5055b-3e7f-4d52-8695-a318479b2cbf" />
 
-Ticket escalation from Keanu Wilder to John Doe in the SysAdmins department
+## Ticket escalation from Keanu Wilder to John Doe in the SysAdmins department
 
 <img width="860" height="806" alt="image" src="https://github.com/user-attachments/assets/4bf52f83-b204-488a-b518-1a859e07bc90" />
 
-VPN troubleshooting showing failed VPN connection or service investigation
+## VPN troubleshooting showing failed VPN connection or service investigation
 
 <img width="404" height="466" alt="image" src="https://github.com/user-attachments/assets/bc3ddca1-aa9d-480a-8e14-444f9591c326" />
 
-Internal troubleshooting notes documenting SLA escalation and remediation steps
+## Internal troubleshooting notes documenting SLA escalation and remediation steps
 
 <img width="858" height="749" alt="image" src="https://github.com/user-attachments/assets/47e4f40b-bd79-48c2-829d-93b7ca15bebc" />
 
-Successful VPN reconnection or restored VPN service verification
+## Successful VPN reconnection or restored VPN service verification
 
 <img width="802" height="587" alt="image" src="https://github.com/user-attachments/assets/b40415b4-b361-43c9-93e8-605e47f2b59e" />
 <img width="848" height="161" alt="image" src="https://github.com/user-attachments/assets/a39c98c6-4c26-4a44-ba60-9c2774600a5e" />
