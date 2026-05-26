@@ -1,4 +1,3 @@
-<p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
@@ -58,7 +57,7 @@ This project demonstrates how enterprise IT teams use help desk ticketing system
 | Sarah Johnson | HR |
 | Ethan Davis | Sales |
 | Daniel Brooks | Finance |
-| Karen | General User |
+| Karen Wallace | General User |
 | Ken | General User |
 
 ### SLA Policies
@@ -113,22 +112,29 @@ Sarah Johnson was unable to access her workstation and payroll system before pay
 Multiple failed login attempts caused the user account to become locked.
 
 ## Screenshots
+
 ## Ticket Submission
+
 <img width="730" height="829" alt="image" src="https://github.com/user-attachments/assets/ec603b02-3336-45ac-9354-494d843dc462" />
 
 ## Ticket Queue
+
 <img width="959" height="400" alt="image" src="https://github.com/user-attachments/assets/6a43c239-2422-4bd9-9aaa-8bf2fdd1933a" />
 
 ## Ticket Assignment
+
 <img width="957" height="501" alt="image" src="https://github.com/user-attachments/assets/6a87befe-e8ea-4524-ae97-1799e7a77a98" />
 
 ## Account Lockout in AD
+
 <img width="407" height="536" alt="image" src="https://github.com/user-attachments/assets/89053c6e-03cb-4818-95c3-911b66c3bf40" />
 
 ## Internal Troubleshooting Documentation
+
 <img width="861" height="917" alt="image" src="https://github.com/user-attachments/assets/26f0fb17-45c5-42d4-8013-dad2980bb43a" />
 
 ## Resolved Ticket
+
 <img width="853" height="146" alt="image" src="https://github.com/user-attachments/assets/87cc96e9-8d88-4271-b019-3ff31487dc8d" />
 
 ## Resolution
@@ -164,18 +170,23 @@ A stalled Print Spooler service prevented documents from printing successfully.
 
 ## Screenshots
 ## Ticket submission showing printer issue and business impact
+
 <img width="841" height="899" alt="image" src="https://github.com/user-attachments/assets/c6e6e6a7-f5db-4430-a95d-5aab92ef81b0" />
 
 ## Ticket escalation from Keanu Wilder to John Doe
+
 <img width="870" height="957" alt="image" src="https://github.com/user-attachments/assets/492c252c-792f-4def-b9c9-5a8037bdc0d9" />
 
-## Screenshot showing Print Spooler service troubleshooting after users reported documents stuck in the print queue. The Print Spooler service was found stopped, preventing successful printer communication and document processing.
+## Print Spooler troubleshooting after users reported stuck print jobs. The service was stopped, preventing printer communication and document processing.
+
 <img width="406" height="465" alt="image" src="https://github.com/user-attachments/assets/9599351b-8346-444f-a39c-8eab21bf1ab0" />
 
 ## Internal troubleshooting notes documenting escalation and remediation steps
+
 <img width="857" height="399" alt="image" src="https://github.com/user-attachments/assets/d652c7f1-bd91-4a32-a305-2007b444c361" />
 
 ## Resolved Ticket
+
 <img width="909" height="152" alt="image" src="https://github.com/user-attachments/assets/03b3cdeb-3bfe-4145-9ae2-1c384de9ec75" />
 
 ### Resolution
@@ -206,14 +217,30 @@ Finance employees lost access to a shared network drive containing department fi
 Network connectivity disruption prevented users from accessing the finance shared drive.
 
 ## Screenshots
-1. Critical shared drive outage ticket showing business impact
-2. Ticket escalation to Olivia Martinez in Network Operations
-3. Network troubleshooting showing failed shared drive access or connectivity testing
-4. Internal troubleshooting notes documenting escalation and network investigation
-5. Restored shared drive access or successful connectivity verification
+Critical shared drive outage ticket showing business impact
+
+<img width="758" height="713" alt="image" src="https://github.com/user-attachments/assets/694c5f87-4c6f-4886-9c22-81d2a0b2b12d" />
+
+Ticket Assign to Olivia Martinez in Network Operations
+
+<img width="859" height="686" alt="image" src="https://github.com/user-attachments/assets/5d405d65-18b1-434f-91dc-37882cd70824" />
+
+Network troubleshooting showing failed shared drive access or connectivity testing
+
+<img width="353" height="363" alt="image" src="https://github.com/user-attachments/assets/aee15d6a-edf0-4007-b1cd-63c5e0832196" />
+<img width="1119" height="764" alt="image" src="https://github.com/user-attachments/assets/16f0e009-7f64-440d-9b3d-248528594ecb" />
+
+Internal troubleshooting notes documenting escalation and network investigation
+
+<img width="361" height="447" alt="image" src="https://github.com/user-attachments/assets/2cf170f9-a71a-40ed-bb71-3e1ee77244a7" />
+<img width="852" height="466" alt="image" src="https://github.com/ser-attachments/assets/609de83b-7906-415b-bd43-52dd562acdad" />
+
+Restored shared drive access or successful connectivity verification
+
+<img width="1125" height="766" alt="image" src="https://github.com/user-attachments/assets/42d4f300-ccbd-4c76-b0ef-c93ee929e985" />
 
 ### Resolution
-Network Operations restored connectivity and shared drive access successfully.
+Network Operations restored connectivity and shared drive access successfully for Daniel Brooks Finance Department.
 
 ---
 ## Scenario 4 - Business Critical SLA Escalation
@@ -242,11 +269,26 @@ A business-critical outage exceeded SLA response windows and required escalation
 Critical outage required escalation beyond frontline support capabilities.
 
 ## Screenshots
-1. Critical VPN outage ticket showing SLA priority and business impact
-2. Ticket escalation from Keanu Wilder to John Doe in the SysAdmins department
-3. VPN troubleshooting showing failed VPN connection or service investigation
-4. Internal troubleshooting notes documenting SLA escalation and remediation steps
-5. Successful VPN reconnection or restored VPN service verification
+Critical VPN outage ticket showing SLA priority and business impact
+
+<img width="860" height="806" alt="image" src="https://github.com/user-attachments/assets/8ee5055b-3e7f-4d52-8695-a318479b2cbf" />
+
+Ticket escalation from Keanu Wilder to John Doe in the SysAdmins department
+
+<img width="860" height="806" alt="image" src="https://github.com/user-attachments/assets/4bf52f83-b204-488a-b518-1a859e07bc90" />
+
+VPN troubleshooting showing failed VPN connection or service investigation
+
+<img width="404" height="466" alt="image" src="https://github.com/user-attachments/assets/bc3ddca1-aa9d-480a-8e14-444f9591c326" />
+
+Internal troubleshooting notes documenting SLA escalation and remediation steps
+
+<img width="858" height="749" alt="image" src="https://github.com/user-attachments/assets/47e4f40b-bd79-48c2-829d-93b7ca15bebc" />
+
+Successful VPN reconnection or restored VPN service verification
+
+<img width="802" height="587" alt="image" src="https://github.com/user-attachments/assets/b40415b4-b361-43c9-93e8-605e47f2b59e" />
+<img width="848" height="161" alt="image" src="https://github.com/user-attachments/assets/a39c98c6-4c26-4a44-ba60-9c2774600a5e" />
 
 ### Resolution
 Issue was escalated appropriately and resolved successfully.
