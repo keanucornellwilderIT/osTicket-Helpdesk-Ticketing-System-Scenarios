@@ -112,7 +112,7 @@ Multiple failed login attempts caused the user account to become locked.
 
 ### 📸 Screenshots
 1. Ticket submission showing the user issue and ticket priority
-2. Ticket assigned to Keanu Wilder in the Support department
+2. Ticket assigned to Keanu Wilder in the SysAdmin department
 3. Internal notes documenting password reset troubleshooting steps
 4. Closed/resolved ticket showing successful resolution
 
@@ -122,7 +122,7 @@ Password was reset and account access was restored successfully.
 ---
 ## Scenario 2 - Sales Printer Failure Before Client Meeting
 ### Assigned Agent
-John Does — Support Department
+John Doe — Support Department
 ### Escalated To
 Keanu Wilder SysAdmin Department
 ### User
@@ -206,7 +206,7 @@ A business-critical outage exceeded SLA response windows and required escalation
 ### Troubleshooting
 - Reviewed SLA timers
 - Escalated ticket to SysAdmins
-- Assigned ticket to Michael Chen
+- Assigned ticket to Keanu Wilder
 - Monitored response window
 - Updated internal documentation
 
@@ -216,7 +216,7 @@ Critical outage required escalation beyond frontline support capabilities.
 ### 📸 Screenshots
 1. Critical ticket showing SLA warning
 2. Ticket escalation to SysAdmins
-3. Ticket assignment to Michael Chen
+3. Ticket assignment to Keanu Wilder
 4. Internal notes documenting escalation workflow
 5. Resolved ticket showing final resolution
 
