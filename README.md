@@ -1,169 +1,211 @@
-# 🎫 osTicket Help Desk Ticketing System
+<p align="center">
+<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+</p>
 
-## 📌 Overview
-This project simulates a real-world help desk ticketing environment using osTicket. The lab focuses on ticket management, SLA configuration, escalation workflows, password reset scenarios, and troubleshooting support tickets commonly handled by IT support specialists and help desk technicians.
+# osTicket Help Desk Ticketing System
 
-The goal of this project is to build hands-on experience with ticketing systems, customer support workflows, troubleshooting methodology, and enterprise help desk operations.
+### Overview
+This project simulates a real-world enterprise help desk environment using osTicket. The lab focuses on ticket management, troubleshooting workflows, SLA administration, escalation procedures, and end-user support operations commonly used in enterprise IT environments.
 
-## 🎯 Objectives
-- Install and configure osTicket
-- Manage help desk ticket workflows
-- Configure SLA and escalation policies
-- Simulate password reset scenarios
-- Troubleshoot support tickets
-- Practice real-world help desk operations
+The environment was configured to simulate realistic help desk operations where users submit tickets for password resets, printer failures, shared drive outages, and business-critical incidents.
 
-## 🧰 Technologies Used
+### Business Impact
+This project demonstrates how enterprise IT teams use help desk ticketing systems to manage support requests, prioritize critical issues, document troubleshooting steps, and reduce downtime for employees and business operations.
+-
+
+### Technologies Used
 - osTicket
-- Windows Server 2022
-- Windows 10/11
-- IIS
+- Microsoft IIS
 - MySQL
 - PHP
+- Windows Server 2022
+- Windows 10
 
-## 🏗️ Environment Setup
+### Key Help Desk Skills Demonstrated
+- Ticket Lifecycle Management
+- SLA Administration
+- Password Reset Support
+- Printer & Network Troubleshooting
+- Ticket Documentation
+- End-User Support
+
+
+### Environment Setup
 - Windows Server VM
 - Windows Client VM
-- osTicket Server
-- Help Desk Environment
-- Web Browser Access
+- IIS Web Server
+- MySQL Database Server
+- PHP Configuration
+- osTicket Deployment
 
-## ⚙️ Project Configuration Steps
-### Step 1 - Install osTicket
-Installed and configured the osTicket help desk system.
+### Departments
+- Support
+- SysAdmins
+- Network Operations
 
-### Step 2 - Configure Ticketing System
-Configured departments, agents, and ticket settings.
+### Teams
+- Online Banking
 
-### Step 3 - Configure SLA & Escalation Policies
-Configured SLA plans and escalation workflows for ticket management.
+### Agents
+| Agent | Department | Access |
+|---|---|---|
+| Keanu Wilder | Support | Supreme Admin |
+| Jane Doe | SysAdmins | Full Access |
+| Michael Chen | SysAdmins | Full Access |
+| Olivia Martinez | Network Operations | Limited Access |
+| John Does | Support | View Only |
 
-### Step 4 - Test Help Desk Ticket Workflow
-Created and managed support tickets through the help desk system.
+### Users
+| User | Department |
+|---|---|
+| Sarah Johnson | HR |
+| Ethan Davis | Sales |
+| Daniel Brooks | Finance |
+| Karen | General User |
+| Ken | General User |
 
-## 🛠️ Help Desk Scenarios
+### SLA Policies
+| SLA | Grace Period | Schedule |
+|---|---|---|
+| Sev-A | 1 Hour | 24/7 |
+| Sev-B | 4 Hours | 24/7 |
+| Sev-C | 8 Hours | Business Hours |
 
-### Scenario 1 - Ticket Lifecycle Scenario
+# Project Configuration Steps
 
-#### Problem
-User submitted a support request that required ticket creation, assignment, and resolution.
+### Step 1 - Install IIS, PHP, and MySQL
+Installed and configured the web server, PHP environment, and MySQL database required for osTicket deployment.
 
-#### Troubleshooting
-- Created support ticket
-- Assigned ticket to help desk agent
-- Updated ticket status
-- Verified successful resolution
+### Step 2 - Deploy osTicket
+Configured osTicket and verified successful deployment through the Support Center and Admin Panel.
 
-#### Root Cause
-User required technical assistance through the help desk workflow.
+### Step 3 - Configure Roles, Departments, and Teams
+Configured departments, teams, and role-based permissions to simulate enterprise help desk hierarchy and escalation workflows.
 
-📸 Screenshot here
+### Step 4 - Configure SLA Policies and Help Topics
+Configured SLA response policies and realistic help topics for ticket categorization and escalation procedures.
 
-#### Resolution
-Resolved the issue and completed the ticket lifecycle process successfully.
-
-#### Skills Learned
-- Ticket management
-- Help desk workflows
-- Ticket lifecycle administration
-- Customer support operations
 ---
 
-### Scenario 2 - SLA & Escalation Workflow
+# Help Desk Scenarios
 
-#### Problem
-Support ticket exceeded response time requirements and required escalation.
+## Scenario 1 - HR Payroll Account Lockout
 
-#### Troubleshooting
-- Reviewed SLA configuration
-- Verified escalation rules
-- Monitored ticket response times
-- Updated ticket priority
+### User
+Sarah Johnson — HR Department
+### Help Topic
+Report a Problem / Password Reset
+### Priority
+High
 
-#### Root Cause
-Ticket response time exceeded configured SLA thresholds.
+### Problem
+Sarah Johnson was unable to access her workstation and payroll system before payroll processing deadlines.
 
-📸 Screenshot here
+### Troubleshooting
+- Verified user identity
+- Confirmed account lockout
+- Reset password
+- Unlocked account
+- Tested successful login
+- Added internal documentation notes
 
-#### Resolution
-Configured SLA and escalation workflows to improve ticket response management.
+### Root Cause
+Multiple failed login attempts caused the user account to become locked.
 
-#### Skills Learned
-- SLA management
-- Ticket escalation workflows
-- Priority management
-- Help desk operations
+### Resolution
+Password was reset and account access was restored successfully.
+
 ---
+## Scenario 2 - Sales Printer Failure Before Client Meeting
 
-### Scenario 3 - Password Reset Ticket Scenario
+### User
+Ethan Davis — Sales Department
+### Help Topic
+Report a Problem / Printer Issues
+### Priority
+Medium
 
-#### Problem
-User was unable to log in due to forgotten credentials.
+### Problem
+Sales staff were unable to print contracts before an important client meeting.
 
-#### Troubleshooting
-- Verified user account information
-- Reset user password
-- Tested login functionality
-- Updated support ticket notes
+### Troubleshooting
+- Verified printer connectivity
+- Checked printer online status
+- Restarted Print Spooler service
+- Cleared stuck print queue
+- Tested successful printing
 
-#### Root Cause
-User password issue prevented successful authentication.
+### Root Cause
+A stalled Print Spooler service prevented documents from printing successfully.
 
-📸 Screenshot here
+### Resolution
+Printer functionality was restored successfully.
 
-#### Resolution
-Reset user credentials and restored account access successfully.
-
-#### Skills Learned
-- Password reset support
-- User account troubleshooting
-- Authentication support
-- End-user assistance
 ---
+## Scenario 3 - Finance Shared Drive Outage
 
-### Scenario 4 - Printer Troubleshooting Ticket Scenario
+### User
+Daniel Brooks — Finance Department
+### Help Topic
+Report a Problem / Shared Drive Access
+### Priority
+Critical
 
-#### Problem
-User reported inability to print documents from their workstation.
+### Problem
+Finance employees lost access to a shared network drive containing department financial reports.
 
-#### Troubleshooting
-- Reviewed printer connectivity
-- Verified printer status
-- Restarted print spooler service
-- Tested printer functionality
+### Troubleshooting
+- Verified issue across multiple users
+- Tested network connectivity
+- Confirmed shared drive outage
+- Escalated ticket to Network Operations
+- Coordinated with Olivia Martinez for investigation
 
-#### Root Cause
-Printer communication/spooler issue prevented successful printing.
+### Root Cause
+Network connectivity disruption prevented users from accessing the finance shared drive.
 
-📸 Screenshot here
+### Resolution
+Network Operations restored connectivity and shared drive access successfully.
 
-#### Resolution
-Resolved printer issue and restored printing functionality.
-
-#### Skills Learned
-- Printer troubleshooting
-- Print spooler management
-- Ticket documentation
-- Technical support workflows
 ---
+## Scenario 4 - Business Critical SLA Escalation
 
-## 🧠 Key Help Desk Skills Demonstrated
-- Ticket Management
-- SLA Administration
-- Troubleshooting Methodology
-- End-User Support
-- Password Reset Support
-- Printer Troubleshooting
-- Root Cause Analysis
-- Technical Documentation
+### User
+Karen — General User
+### Help Topic
+Report a Problem / Business Critical Outage
+### Priority
+Critical
 
-## 📖 Lessons Learned
-This project improved my understanding of help desk ticketing systems and enterprise support workflows. I gained hands-on experience managing support tickets, configuring SLA policies, troubleshooting user issues, and documenting technical resolutions using osTicket.
+### Problem
+A business-critical outage exceeded SLA response windows and required escalation to senior administrators.
 
-The lab also strengthened my customer support, troubleshooting, and ticket management skills commonly used in IT help desk environments.
+### Troubleshooting
+- Reviewed SLA timers
+- Escalated ticket to SysAdmins
+- Assigned ticket to Michael Chen
+- Monitored response window
+- Updated internal documentation
 
-## 🚀 Future Improvements
-- Configure email ticket integration
-- Add automated ticket workflows
-- Implement knowledge base articles
-- Configure advanced SLA policies
+### Root Cause
+Critical outage required escalation beyond frontline support capabilities.
+
+### Resolution
+Issue was escalated appropriately and resolved successfully.
+
+---
+## Lessons Learned
+This project strengthened my understanding of enterprise help desk operations, ticket lifecycle management, SLA administration, escalation procedures, and troubleshooting methodology.
+
+Through realistic support scenarios, I gained hands-on experience documenting technical issues, prioritizing incidents based on business impact, troubleshooting authentication and connectivity problems, and coordinating escalations between support teams.
+
+The project also improved my understanding of role-based access control, departmental ticket routing, and enterprise support workflows commonly used in IT support environments.
+
+## Future Improvements
+- Configure email-to-ticket integration
+- Implement automated escalation workflows
+- Add knowledge base documentation
+- Configure Active Directory integration
+- Implement advanced reporting dashboards
+- Configure ticket auto-assignment rules
+- Integrate monitoring and alerting systems
