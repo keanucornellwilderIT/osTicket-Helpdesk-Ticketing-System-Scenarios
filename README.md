@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-# osTicket Help Desk Ticketing System
+# osTicket Help Desk Ticketing System Scenarios
 
 ### Overview
 This project simulates a real-world enterprise help desk environment using osTicket. The lab focuses on ticket management, troubleshooting workflows, SLA administration, escalation procedures, and end-user support operations commonly used in enterprise IT environments.
@@ -11,7 +11,6 @@ The environment was configured to simulate realistic help desk operations where 
 
 ### Business Impact
 This project demonstrates how enterprise IT teams use help desk ticketing systems to manage support requests, prioritize critical issues, document troubleshooting steps, and reduce downtime for employees and business operations.
--
 
 ### Technologies Used
 - osTicket
@@ -49,11 +48,9 @@ This project demonstrates how enterprise IT teams use help desk ticketing system
 ### Agents
 | Agent | Department | Access |
 |---|---|---|
-| Keanu Wilder | Support | Supreme Admin |
-| Jane Doe | SysAdmins | Full Access |
-| Michael Chen | SysAdmins | Full Access |
+| Keanu Wilder | SysAdmins | Supreme Admin |
+| John Doe | Support | View Only |
 | Olivia Martinez | Network Operations | Limited Access |
-| John Does | Support | View Only |
 
 ### Users
 | User | Department |
@@ -90,7 +87,8 @@ Configured SLA response policies and realistic help topics for ticket categoriza
 # Help Desk Scenarios
 
 ## Scenario 1 - HR Payroll Account Lockout
-
+### Assigned Agent
+Keanu Wilder — SysAdmin Department
 ### User
 Sarah Johnson — HR Department
 ### Help Topic
@@ -112,12 +110,21 @@ Sarah Johnson was unable to access her workstation and payroll system before pay
 ### Root Cause
 Multiple failed login attempts caused the user account to become locked.
 
+### 📸 Screenshots
+1. Ticket submission showing the user issue and ticket priority
+2. Ticket assigned to Keanu Wilder in the Support department
+3. Internal notes documenting password reset troubleshooting steps
+4. Closed/resolved ticket showing successful resolution
+
 ### Resolution
 Password was reset and account access was restored successfully.
 
 ---
 ## Scenario 2 - Sales Printer Failure Before Client Meeting
-
+### Assigned Agent
+John Does — Support Department
+### Escalated To
+Keanu Wilder SysAdmin Department
 ### User
 Ethan Davis — Sales Department
 ### Help Topic
@@ -138,12 +145,20 @@ Sales staff were unable to print contracts before an important client meeting.
 ### Root Cause
 A stalled Print Spooler service prevented documents from printing successfully.
 
+### Screenshots
+1. Ticket submission showing the user issue and ticket priority
+2. Ticket assigned to Keanu Wilder in the Support department
+3. Internal notes documenting password reset troubleshooting steps
+4. Closed/resolved ticket showing successful resolution steps
+5. Resolved ticket status
+
 ### Resolution
 Printer functionality was restored successfully.
 
 ---
 ## Scenario 3 - Finance Shared Drive Outage
-
+### Assigned Agent
+Olivia Martinez — Network Operations
 ### User
 Daniel Brooks — Finance Department
 ### Help Topic
@@ -164,12 +179,20 @@ Finance employees lost access to a shared network drive containing department fi
 ### Root Cause
 Network connectivity disruption prevented users from accessing the finance shared drive.
 
+### 📸 Screenshots
+1. Critical ticket showing shared drive outage
+2. Ticket escalation to Network Operations
+3. Ticket assignment to Olivia Martinez
+4. Internal notes documenting escalation and troubleshooting
+5. Resolved ticket showing restored access
+
 ### Resolution
 Network Operations restored connectivity and shared drive access successfully.
 
 ---
 ## Scenario 4 - Business Critical SLA Escalation
-
+### Assigned Agent
+Keanu Wilder SysAdmin Department
 ### User
 Karen — General User
 ### Help Topic
@@ -189,6 +212,13 @@ A business-critical outage exceeded SLA response windows and required escalation
 
 ### Root Cause
 Critical outage required escalation beyond frontline support capabilities.
+
+### 📸 Screenshots
+1. Critical ticket showing SLA warning
+2. Ticket escalation to SysAdmins
+3. Ticket assignment to Michael Chen
+4. Internal notes documenting escalation workflow
+5. Resolved ticket showing final resolution
 
 ### Resolution
 Issue was escalated appropriately and resolved successfully.
