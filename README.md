@@ -110,11 +110,20 @@ Sarah Johnson was unable to access her workstation and payroll system before pay
 ### Root Cause
 Multiple failed login attempts caused the user account to become locked.
 
-### 📸 Screenshots
-1. Ticket submission showing the user issue and ticket priority
-2. Ticket assigned to Keanu Wilder in the SysAdmin department
-3. Internal notes documenting password reset troubleshooting steps
-4. Closed/resolved ticket showing successful resolution
+### Screenshots
+### Ticket Submission
+<img width="730" height="829" alt="image" src="https://github.com/user-attachments/assets/ec603b02-3336-45ac-9354-494d843dc462" />
+### Ticket Queue
+<img width="958" height="377" alt="image" src="https://github.com/user-attachments/assets/89fb7a6b-b931-428f-9a4c-76d0ef784b36" />
+### Account Lockout in AD
+
+### Ticket Assignment
+<img width="826" height="562" alt="image" src="https://github.com/user-attachments/assets/c6053d75-02ca-4c27-b32b-93d7692b374d" />
+### Internal Troubleshooting Documentation
+<img width="837" height="830" alt="image" src="https://github.com/user-attachments/assets/061f1cd4-87d3-41e5-b1a3-5a994e3b79eb" />
+### Resolved Ticket
+<img width="981" height="179" alt="image" src="https://github.com/user-attachments/assets/5f2cad05-db17-4bb1-983c-e2d720827694" />
+
 
 ### Resolution
 Password was reset and account access was restored successfully.
@@ -146,11 +155,11 @@ Sales staff were unable to print contracts before an important client meeting.
 A stalled Print Spooler service prevented documents from printing successfully.
 
 ### Screenshots
-1. Ticket submission showing the user issue and ticket priority
-2. Ticket assigned to Keanu Wilder in the Support department
-3. Internal notes documenting password reset troubleshooting steps
-4. Closed/resolved ticket showing successful resolution steps
-5. Resolved ticket status
+1. Ticket submission showing printer issue and business impact
+2. Ticket escalation from John Doe to Keanu Wilder
+3. Print Spooler troubleshooting and stuck print queue investigation
+4. Internal troubleshooting notes documenting escalation and remediation steps
+5. Successful test print or restored printer functionality
 
 ### Resolution
 Printer functionality was restored successfully.
@@ -179,12 +188,12 @@ Finance employees lost access to a shared network drive containing department fi
 ### Root Cause
 Network connectivity disruption prevented users from accessing the finance shared drive.
 
-### 📸 Screenshots
-1. Critical ticket showing shared drive outage
-2. Ticket escalation to Network Operations
-3. Ticket assignment to Olivia Martinez
-4. Internal notes documenting escalation and troubleshooting
-5. Resolved ticket showing restored access
+### Screenshots
+1. Critical shared drive outage ticket showing business impact
+2. Ticket escalation to Olivia Martinez in Network Operations
+3. Network troubleshooting showing failed shared drive access or connectivity testing
+4. Internal troubleshooting notes documenting escalation and network investigation
+5. Restored shared drive access or successful connectivity verification
 
 ### Resolution
 Network Operations restored connectivity and shared drive access successfully.
@@ -213,12 +222,12 @@ A business-critical outage exceeded SLA response windows and required escalation
 ### Root Cause
 Critical outage required escalation beyond frontline support capabilities.
 
-### 📸 Screenshots
-1. Critical ticket showing SLA warning
-2. Ticket escalation to SysAdmins
-3. Ticket assignment to Keanu Wilder
-4. Internal notes documenting escalation workflow
-5. Resolved ticket showing final resolution
+### Screenshots
+1. Critical VPN outage ticket showing SLA priority and business impact
+2. Ticket escalation from John Doe to Keanu Wilder in the SysAdmins department
+3. VPN troubleshooting showing failed VPN connection or service investigation
+4. Internal troubleshooting notes documenting SLA escalation and remediation steps
+5. Successful VPN reconnection or restored VPN service verification
 
 ### Resolution
 Issue was escalated appropriately and resolved successfully.
